@@ -1,0 +1,14 @@
+"Games"
+{
+    "tf"
+    {
+        "Offsets"
+        {
+            "SecondaryAttack"
+            {
+                "windows"    "219"
+                "linux"      "220"
+            }
+        }
+    }
+}

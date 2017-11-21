@@ -3,6 +3,7 @@
 ## Usage
 
 Put .smx file in tf/addons/sourcemod/plugins
+
 If server is hosted by Windows or if an update broke the plugin, put .txt file in tf/addons/sourcemod/gamedata
 
 ## Update

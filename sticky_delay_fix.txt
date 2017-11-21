@@ -6,8 +6,8 @@
         {
             "SecondaryAttack"
             {
-                "windows"    "219"
-                "linux"      "220"
+                "windows"    "280"
+                "linux"      "286"
             }
         }
     }

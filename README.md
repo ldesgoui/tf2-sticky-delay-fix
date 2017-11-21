@@ -2,14 +2,14 @@
 
 ## Usage
 
-Put .smx file in tf/addons/sourcemod/plugins
-If server is hosted by Windows or if an update broke the plugin, put .txt file in tf/addons/sourcemod/gamedata
+- Put .smx file in tf/addons/sourcemod/plugins
+- Put .txt file in tf/addons/sourcemod/gamedata
 
 ## Update
 
 An update might break how the plugin interacts with the game, in this case:
 
-- Open https://asherkin.github.io/vtable/
+- Open https://asherkin.github.io/vtable/ with Firefox
 - Pick TF2 Server
 - Search for SecondaryAttack
 - Pick any (it should be fine)

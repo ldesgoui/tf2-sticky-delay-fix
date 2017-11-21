@@ -17,13 +17,11 @@ static Handle g_Attack2 = INVALID_HANDLE;
 
 public void OnPluginStart() {
     Handle GameData = LoadGameConfigFile("sticky_delay_fix");
-    StartPrepSDKCall(SDKCall_Entity);
     if (GameData != INVALID_HANDLE) {
+        StartPrepSDKCall(SDKCall_Entity);
         PrepSDKCall_SetFromConf(GameData, SDKConf_Virtual, "SecondaryAttack");
-    } else {
-        PrepSDKCall_SetVirtual(286); // LINUX ASSUMED :/
+        g_Attack2 = EndPrepSDKCall();
     }
-    g_Attack2 = EndPrepSDKCall();
     if (g_Attack2 == INVALID_HANDLE)
         LogMessage("Failed to prepare SDK call");
 }
@@ -48,4 +46,3 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse,
     SDKCall(g_Attack2, weapon);
     return Plugin_Continue;
 }
-

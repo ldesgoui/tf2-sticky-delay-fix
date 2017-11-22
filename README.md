@@ -1,5 +1,9 @@
 # Sticky Delay Bug Fix
 
+## TEMPORARY
+
+I can't get GameData to work so this will only work for Linux servers.
+
 ## Usage
 
 - Put .smx file in tf/addons/sourcemod/plugins

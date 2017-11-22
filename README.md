@@ -1,15 +1,8 @@
 # Sticky Delay Bug Fix
 
-## TEMPORARY
+- Download latest release and unzip it in `steam/steamapps/common/Team Fortress 2 Dedicated Server/tf`
 
-I can't get GameData to work so this will only work for Linux servers.
-
-## Usage
-
-- Put .smx file in tf/addons/sourcemod/plugins
-- Put .txt file in tf/addons/sourcemod/gamedata
-
-## Update
+## Updating
 
 An update might break how the plugin interacts with the game, in this case:
 

@@ -16,19 +16,19 @@ public Plugin myinfo = {
 static Handle g_Attack2 = INVALID_HANDLE;
 
 public void OnPluginStart() {
+    Handle gamedata = LoadGameConfigFile("sticky_delay_fix.plugin");
     StartPrepSDKCall(SDKCall_Entity);
-    PrepSDKCall_SetVirtual(286);
+    PrepSDKCall_SetFromConf(gamedata, SDKConf_Virtual, "SecondaryAttack");
     g_Attack2 = EndPrepSDKCall();
     if (g_Attack2 == INVALID_HANDLE)
-        LogMessage("Failed to prepare SDK call");
+        SetFailState("Failed to prepare SDK call");
 }
 
 public Action OnPlayerRunCmd(int client, int &buttons, int &impulse,
         float vel[3], float angles[3], int &currWeapon, int &subtype,
         int &cmdnum, int &tickcount, int &seed, int mouse[2]) {
     int weapon, item;
-    if (g_Attack2 == INVALID_HANDLE
-            || !IsClientConnected(client)
+    if (!IsClientConnected(client)
             || !IsClientInGame(client)
             || !IsPlayerAlive(client)
             || TF2_GetPlayerClass(client) != TFClass_DemoMan

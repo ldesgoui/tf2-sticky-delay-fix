@@ -1,6 +1,8 @@
 # Sticky Delay Bug Fix
 
-- Download latest release and unzip it in `steam/steamapps/common/Team Fortress 2 Dedicated Server/tf`
+http://www.teamfortress.tv/34938/demoman-detonation-delay
+
+- Download latest release from https://github.com/ldesgoui/tf2-sticky-delay-fix/releases to `steam/steamapps/common/Team Fortress 2 Dedicated Server/tf` and unzip it.
 
 ## Updating
 

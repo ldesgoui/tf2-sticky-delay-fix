@@ -1,5 +1,7 @@
 # Sticky Delay Bug Fix
 
+http://www.teamfortress.tv/34938/demoman-detonation-delay
+
 ## TEMPORARY
 
 I can't get GameData to work so this will only work for Linux servers.

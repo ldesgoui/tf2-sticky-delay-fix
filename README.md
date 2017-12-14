@@ -1,4 +1,5 @@
 # Sticky Delay Bug Fix
+## THIS HAS BEEN FIXED WITH 14/12/17 PATCH
 
 http://www.teamfortress.tv/34938/demoman-detonation-delay
 

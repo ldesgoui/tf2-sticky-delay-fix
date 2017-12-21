@@ -1,6 +1,6 @@
 # Sticky Delay Bug Fix
 
-(Demo video of the bug)[https://youtu.be/5Tp3m8CNIm0]
+[Demo video of the bug](https://youtu.be/5Tp3m8CNIm0)
 
 http://www.teamfortress.tv/34938/demoman-detonation-delay
 
